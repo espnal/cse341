@@ -8,22 +8,22 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-  "firstName": "Ashley",
-  "lastName": "Weaver",
-  "email": "aWeaver@test.com",
-  "favoriteColor": "Brown",
-  "birthday": "06/19/2000"
+  "firstName": "Brandom",
+  "lastName": "Rodriguez",
+  "email": "Rodriguez@test.com",
+  "favoriteColor": "Gray",
+  "birthday": "2/9/92"
 }
 ###
-PUT http://localhost:8080/contacts/65141257f05659189dfa3cbf HTTP/1.1 
+PUT http://localhost:8080/contacts/6510ed3dad653c8f24b1e114 HTTP/1.1 
 content-type: application/json
 
 {
-"firstName":"Sarah", 
-"lastName":"Birch", 
-"email":"test@gmail.com", 
-"favoriteColor":"Green", 
-"birthday":"12/12/20"
+"firstName":"Rose", 
+"lastName":"Munes", 
+"email":"Munes@gmail.com", 
+"favoriteColor":"Red", 
+"birthday":"11/09/95"
 }
 ### 
-DELETE http://localhost:8080/contacts/65141257f05659189dfa3cbf HTTP/1.1
+DELETE http://localhost:8080/contacts/6510ed28ad653c8f24b1e112 HTTP/1.1
